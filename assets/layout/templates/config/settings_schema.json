@@ -1,0 +1,50 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "FreakOrDrink Theme",
+    "theme_version": "1.0.0",
+    "theme_author": "PlayBars",
+    "theme_documentation_url": "",
+    "theme_support_url": ""
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "color",
+        "id": "colors_accent_1",
+        "default": "#ef4444",
+        "label": "Primary Red"
+      },
+      {
+        "type": "color",
+        "id": "colors_accent_2", 
+        "default": "#ec4899",
+        "label": "Secondary Pink"
+      },
+      {
+        "type": "color",
+        "id": "colors_text",
+        "default": "#ffffff",
+        "label": "Text Color"
+      },
+      {
+        "type": "color",
+        "id": "colors_background_1",
+        "default": "#000000",
+        "label": "Background Color"
+      }
+    ]
+  },
+  {
+    "name": "Products",
+    "settings": [
+      {
+        "type": "collection",
+        "id": "featured_collection",
+        "label": "Featured collection",
+        "info": "Select a collection to display products"
+      }
+    ]
+  }
+]
