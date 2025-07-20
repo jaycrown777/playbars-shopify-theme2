@@ -1,0 +1,35 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "PlayBars Theme",
+    "theme_version": "1.0.0",
+    "theme_author": "PlayBars"
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "color",
+        "id": "color_primary",
+        "default": "#ef4444",
+        "label": "Primary Color"
+      },
+      {
+        "type": "color", 
+        "id": "color_secondary",
+        "default": "#ec4899",
+        "label": "Secondary Color"
+      }
+    ]
+  },
+  {
+    "name": "Products",
+    "settings": [
+      {
+        "type": "collection",
+        "id": "featured_collection",
+        "label": "Featured Collection"
+      }
+    ]
+  }
+]
