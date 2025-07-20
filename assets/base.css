@@ -1,0 +1,53 @@
+/* FreakOrDrink Theme Base CSS */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+:root {
+  --color-primary: #ef4444;
+  --color-secondary: #ec4899;
+  --color-black: #000000;
+  --color-white: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.hero {
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 50%, #8b5cf6 100%);
+  color: var(--color-white);
+  text-align: center;
+  padding: 8rem 2rem;
+}
+
+.hero__title {
+  font-size: clamp(4rem, 10vw, 12rem);
+  font-weight: 900;
+  line-height: 0.9;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-flex;
+  padding: 1.2rem 2.4rem;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  text-decoration: none;
+  border-radius: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
